@@ -1,0 +1,62 @@
+#include <iostream>
+using namespace std;
+
+/*int main() {
+	for (int i = 1; i <= 100; i++) {
+		cout << i << " " << i * 1 << endl;
+	}
+	*/
+
+
+/*	int i;
+	cin >> i;
+
+	if (i > 0 && i <= 20) {
+		cout << "that is right" << endl;
+	}
+	else {
+		cout << "that is not right" << endl;
+
+	if (i > 100 || i < 30) {
+		cout << "that is right" << endl;
+	}
+	else {
+		cout << "that is not right" << endl;
+	}
+	*/
+/*
+int main() {
+	for (int i = 0; i <= 20; i++) {
+		cout << i << " " << "Ksusha" << endl;
+	}
+	cout << endl;
+	cout << "i am done";
+	for (int i = 10; i >= 1; i--) {
+		cout << i << ",";
+	}
+	return 0;
+}
+*/
+
+int main() {
+	int i = 2;
+	string parole, name;
+	do {
+		cout << "ievadi vardu:";
+		cin >> name;
+		cout << "ievadi parole:";
+		cin >> parole;
+		i--;
+		if (i == 0) {
+			break;
+			while (name != "ksusha");
+			if (i == 0) {
+				cout << "sorry your out";
+			}
+			else if (name == "ksusha") {
+				cout << "well done";
+			}
+			return 0;
+			}
+		
+	
