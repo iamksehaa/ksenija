@@ -1,0 +1,124 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+	/*int a1, a2;
+	cin >> a1 >> a2;
+	if (a1 > 0 && a2 > 0) {
+		cout << "positive" << endl;
+	}
+	else cout << "negative" << endl;*/
+	/*if (a1 > a2) {
+		cout << "viens skaitlis lielak par otro" << endl;
+	}
+	else cout << "otrs skaitlis lielak par pirmo" << endl;*/
+	/*if (a1 % 2 == 0) {
+		cout << "para skaitlis" << endl;
+	}
+	else cout << "nepara skaitlis" << endl;
+	if (a2 % 2 == 0) {
+		cout << "para skaitlis" << endl;
+	}
+	else cout << "nepara skaitlis" << endl;*/
+	
+		return 0;
+}
+
+		int mark;
+		cin >> mark;
+		if (mark >= 90) {
+			cout << "A" << endl;
+		}
+else if (mark >= 80) {
+			cout << "B" << endl;
+		}
+		else if (mark >= 70) {
+			cout << "C" << endl;
+		}
+		else if (mark >= 60) {
+			cout << "D" << endl;
+		}
+		else if (mark >= 40) {
+			cout << "E" << endl;
+		}
+		else {
+			cout << "F" << endl;
+		}
+	
+int nedeldiena;
+	cout << "uzraksti cipara no 1-7 nedeldiena:" << endl;
+	cin >> nedeldiena;
+	switch (nedeldiena)
+	{
+	case 1:
+		cout << "pirmdiena" << endl;
+		break;
+	case 2:
+		cout << "otrdiena" << endl;
+		break;
+	case 3:
+		cout << "tresdiena" << endl;
+		break;
+	case 4:
+		cout << "ceturdiena" << endl;
+		break;
+	case 5:
+		cout << "piektdiena" << endl;
+		break;
+	case 6:
+		cout << "sesdiena" << endl;
+		break;
+	case 7:
+		cout << "svetdiena" << endl;
+		break;
+	default:
+		cout << "dienas nav pareiza" << endl;
+
+
+		int menesis;
+		cout << "uzraksti cipara no 1-12 menesis:" << endl;
+		cin >> menesis;
+		switch (menesis)
+		{
+		case 1:
+			cout << "janvaris" << endl;
+			break;
+		case 2:
+			cout << "februaris" << endl;
+			break;
+		case 3:
+			cout << "marts" << endl;
+			break;
+		case 4:
+			cout << "aprilis" << endl;
+			break;
+		case 5:
+			cout << "maijs" << endl;
+			break;
+		case 6:
+			cout << "junis" << endl;
+			break;
+		case 7:
+			cout << "julis" << endl;
+			break;
+		case 8:
+			cout << "augusts" << endl;
+			break;
+		case 9:
+			cout << "septembris" << endl;
+			break;
+		case 10:
+			cout << "oktobris" << endl;
+			break;
+		case 11:
+			cout << "novembris" << endl;
+			break;
+		case 12:
+			cout << "decembris" << endl;
+			break;
+		default:
+			cout << "diena nav pareiza" << endl;
+		}
+
+
+
