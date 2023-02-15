@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+	/*	string t;
+		do {
+			cin >> t;
+			cout << t << endl;
+		} while (t != "stop" ||
+			t != "stop");
+
+
+		string parole;
+		int i = 5;
+		do {
+			cin >> parole;
+			i--;
+			if (i == 0) {
+				cout << "you are out of";
+				break;
+			}
+			}while (parole != "alisa");
+			
+	int i = 1005;
+	while (i != 0) {
+		i = i - 5;
+		cout << i << endl;
+	}
+
+	
+	int temperatura;
+	cin >> temperatura;
+	if (temperatura == 0) {
+		cout << "temperatura neitrala" << endl;
+	}
+	else if (temperatura < 0) {
+		cout << "temperatura-negativ" << endl;
+	}
+	else if (temperatura > 0) {
+		cout << "tenperatura-pozitiv" << endl;
+	}*/
+	
+	return 0;
+
+}
